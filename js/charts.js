@@ -12,7 +12,7 @@ function chartPositif() {
             labels: ["Tanggal 20", "Tanggal 21", "Tanggal 22", "Tanggal 23", "Tanggal 24", "Tanggal 25"],
             datasets: [{
                 label: "Jumlah kasus positif:",
-                backgroundColor: "rgba(2,117,216,1)",
+                backgroundColor: "green",
                 borderColor: "rgba(2,117,216,1)",
                 data: [1455788, 1460184, 1465928, 1471225, 1476452, 1482559],
             }],
@@ -58,7 +58,7 @@ function chartMeninggal() {
                 label: "Jumlah Kasus Meninggal Dunia:",
                 backgroundColor: "white",
                 borderColor: "rgba(2,117,216,1)",
-                data: [1455788, 1460184, 1465928, 1471225, 1476452, 1482559],
+                data: [39447, 39711, 39778, 40012, 40081, 40124],
             }],
         },
         options: {
@@ -76,8 +76,8 @@ function chartMeninggal() {
                 }],
                 yAxes: [{
                     ticks: {
-                        min: 1400000,
-                        max: 1500000,
+                        min: 37000,
+                        max: 42000,
                         maxTicksLimit: 3
                     },
                     gridLines: {
